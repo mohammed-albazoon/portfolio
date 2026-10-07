@@ -27,7 +27,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Mohammed Al-Bazoon",
     specialty: "Software Engineer & Mobile App Developer",
     summary:
-      "Highly motivated software engineer with experience in full-stack web development, cross-platform mobile app development, computer vision, and data analysis. I build secure, scalable applications with Django, React/TypeScript, NestJS, and Flutter.",
+      "Highly motivated entry-level software engineer with a strong background in programming, web development, computer vision, and data analysis, complemented by job experience and a solid foundation in computer science principles.",
     email: "swadimohammed203@gmail.com",
   },
   experience: [
@@ -122,13 +122,13 @@ export const SITE_CONTENT: SiteContent = {
       institution: "Methodist University | Fayetteville, NC, USA",
       degree: "Bachelor of Science in Computer Science | Minor in Mathematics",
       period: "Aug 2019 – May 2023",
-      details: "Solid foundation in computer science principles, software engineering, algorithms, and mathematics.",
+      details: "Comprehensive computer science degree covering software engineering principles, algorithms, data structures, and mathematics.",
     },
     {
       institution: "Red Cross Nordic United World College | Flekke, Norway",
       degree: "International Baccalaureate (IB) Diploma Programme",
       period: "Aug 2014 – Jun 2017",
-      details: "International education program emphasizing critical thinking, science, and cross-cultural communication.",
+      details: "Rigorous international diploma program emphasizing critical thinking, scientific method, and cross-cultural communication.",
     },
   ],
   certifications: [
