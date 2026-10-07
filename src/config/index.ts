@@ -90,6 +90,30 @@ export const SITE_CONTENT: SiteContent = {
       linkSource: "https://github.com/mohammed-albazoon/movie-search-app",
       image: "/movie-search.png",
     },
+    {
+      name: "Jet Fighter VR Game",
+      summary:
+        "Game Development (C#, Unity / Python): Virtual reality jet fighter game featuring 3D flight mechanics and gameplay controls.",
+      linkPreview: "https://github.com/mohammed-albazoon/Jet-Fighter",
+      linkSource: "https://github.com/mohammed-albazoon/Jet-Fighter",
+      image: "/jet-fighter.png",
+    },
+    {
+      name: "Electronics Store Website",
+      summary:
+        "Web Development (HTML, CSS, JavaScript): Interactive e-commerce platform showcasing electronic products with dynamic product browsing features.",
+      linkPreview: "https://mohammed-albazoon.github.io/Electronics-Store-Website/",
+      linkSource: "https://github.com/mohammed-albazoon/Electronics-Store-Website",
+      image: "/electronics-store.png",
+    },
+    {
+      name: "Al-Bazoon Fashion Website",
+      summary:
+        "Web Development (HTML, CSS, JavaScript): E-commerce storefront application featuring modern layout design for fashion and apparel collections.",
+      linkPreview: "https://mohammed-albazoon.github.io/Al-Bazoon-Fashion-Website/",
+      linkSource: "https://github.com/mohammed-albazoon/Al-Bazoon-Fashion-Website",
+      image: "/al-bazoon-fashion.png",
+    },
   ],
   about: {
     description: `
