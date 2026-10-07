@@ -10,6 +10,8 @@ export const SITE_CONFIG: SiteConfig = {
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
+    { text: "Education", href: "#education" },
+    { text: "Certifications", href: "#certifications" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
@@ -110,18 +112,67 @@ export const SITE_CONTENT: SiteContent = {
       name: "Al-Bazoon Fashion Website",
       summary:
         "Web Development (HTML, CSS, JavaScript): E-commerce storefront application featuring modern layout design for fashion and apparel collections.",
-      linkPreview: "https://mohammed-albazoon.github.io/Al-Bazoon-Fashion-Website/",
-      linkSource: "https://github.com/mohammed-albazoon/Al-Bazoon-Fashion-Website",
+      linkPreview: "https://mohammed-albazoon.github.io/Albazoon-fashion/",
+      linkSource: "https://github.com/mohammed-albazoon/Albazoon-fashion",
       image: "/al-bazoon-fashion.png",
+    },
+  ],
+  education: [
+    {
+      institution: "Methodist University | Fayetteville, NC, USA",
+      degree: "Bachelor of Science in Computer Science | Minor in Mathematics",
+      period: "Aug 2019 – May 2023",
+      details: "Solid foundation in computer science principles, software engineering, algorithms, and mathematics.",
+    },
+    {
+      institution: "Red Cross Nordic United World College | Flekke, Norway",
+      degree: "International Baccalaureate (IB) Diploma Programme",
+      period: "Aug 2014 – Jun 2017",
+      details: "International education program emphasizing critical thinking, science, and cross-cultural communication.",
+    },
+  ],
+  certifications: [
+    {
+      title: "DeepLearning.AI Certificate",
+      issuer: "DeepLearning.AI",
+      date: "Jul 2023",
+      courses: ["Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning"],
+    },
+    {
+      title: "Meta Backend Developer Certificate",
+      issuer: "Meta",
+      date: "Mar 2023",
+      courses: ["Django Web Framework"],
+    },
+    {
+      title: "IBM Data Science Professional Certificate",
+      issuer: "IBM",
+      date: "Feb 2023",
+      courses: [
+        "Python for Data Science, AI & Development",
+        "Data Analysis with Python",
+        "Machine Learning with Python (with honors)",
+      ],
+    },
+    {
+      title: "Google IT Automation Professional Certificate",
+      issuer: "Google",
+      date: "Dec 2022",
+      courses: [
+        "Crash Course on Python",
+        "Using Python to Interact with the Operating System",
+        "Introduction to Git and GitHub",
+        "Troubleshooting and Debugging Techniques",
+      ],
     },
   ],
   about: {
     description: `
-      Hi, I'm Mohammed Al-Bazoon, a Software Engineer with a strong background in computer science and mathematics from Methodist University (B.S. in Computer Science, Minor in Mathematics).
+      Hi, I'm Mohammed Al-Bazoon, a Software Engineer with a solid background in computer science and mathematics.
 
-      I specialize in full-stack web and mobile application development. My background includes building HIPAA and SOC-2 compliant Django software for researchers at Harvard University and Mass General Brigham.
+      I specialize in full-stack web and mobile application development. My professional experience includes developing HIPAA and SOC-2 compliant Django software for researchers at Harvard University and Mass General Brigham.
 
-      My technical expertise spans across Python, Django, React, TypeScript, Angular, NestJS, Flutter/Dart, Firebase, Machine Learning, and Computer Vision.
+      My technical expertise spans Python, Django, React, TypeScript, Angular, NestJS, Flutter/Dart, Firebase, Machine Learning, and Computer Vision.
     `,
     image: "/mohammed-big.jpg",
   },
