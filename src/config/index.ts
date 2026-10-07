@@ -90,15 +90,15 @@ export const SITE_CONTENT: SiteContent = {
         "Web Development (React, TypeScript, OMDb API | HTML, CSS, JavaScript): Interactive movie discovery web application fetching real-time data from OMDb API.",
       linkPreview: "https://mohammed-albazoon.github.io/movie-search-app/",
       linkSource: "https://github.com/mohammed-albazoon/movie-search-app",
-      image: "/movie-search.png",
+      image: "/movie-search.jpg",
     },
     {
       name: "Jet Fighter VR Game",
       summary:
         "Game Development (C#, Unity / Python): Virtual reality jet fighter game featuring 3D flight mechanics and gameplay controls.",
-      linkPreview: "https://github.com/mohammed-albazoon/Jet-Fighter",
-      linkSource: "https://github.com/mohammed-albazoon/Jet-Fighter",
-      image: "/jet-fighter.png",
+      linkPreview: "https://www.linkedin.com/posts/mohammed-al-bazoon-6a28501a1_how-it-started-it-how-it-ended-when-i-activity-6987946424059510784-Zbb7",
+      linkSource: "https://github.com/mohammed-albazoon/Jet-Fighter-Game-with-Unity",
+      image: "/jet-fighter.jpg",
     },
     {
       name: "Electronics Store Website",
@@ -106,7 +106,7 @@ export const SITE_CONTENT: SiteContent = {
         "Web Development (HTML, CSS, JavaScript): Interactive e-commerce platform showcasing electronic products with dynamic product browsing features.",
       linkPreview: "https://mohammed-albazoon.github.io/Electronics-Store-Website/",
       linkSource: "https://github.com/mohammed-albazoon/Electronics-Store-Website",
-      image: "/electronics-store.png",
+      image: "/electronics-store.jpg",
     },
     {
       name: "Al-Bazoon Fashion Website",
@@ -114,7 +114,7 @@ export const SITE_CONTENT: SiteContent = {
         "Web Development (HTML, CSS, JavaScript): E-commerce storefront application featuring modern layout design for fashion and apparel collections.",
       linkPreview: "https://mohammed-albazoon.github.io/Albazoon-fashion/",
       linkSource: "https://github.com/mohammed-albazoon/Albazoon-fashion",
-      image: "/al-bazoon-fashion.png",
+      image: "/al-bazoon-fashion.jpg",
     },
   ],
   education: [
