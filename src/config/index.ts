@@ -1,10 +1,10 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Mohammed Al-Bazoon — Software Engineer",
+  author: "Mohammed Al-Bazoon",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Software Engineer with experience in Django, React, and TypeScript, building secure web applications for healthcare research.",
   lang: "en",
   siteLogo: "/alejandro-small.jpg",
   navLinks: [
@@ -13,86 +13,86 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "Github", href: "https://github.com/mohammed-albazoon" },
   ],
   socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  canonicalURL: "https://mohammed-albazoon-portfolio.vercel.app",
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Mohammed Al-Bazoon",
+    specialty: "Software Engineer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Software engineer with a background in web development, computer vision, and data analysis. I build secure, reliable applications with Python/Django and React/TypeScript.",
+    email: "swadimohammed203@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "Apoth Development, Inc.",
+      position: "Software Engineer (Remote)",
+      startDate: "Jun 2023",
+      endDate: "Sept 2025",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Built models, views, and management commands in a Django application used by researchers at Harvard University and Mass General Brigham to manage participants' personal health information (PHI), in compliance with HIPAA and SOC-2 requirements.",
+        "Supported scalable real-time data processing and synchronization using Django's ORM and asynchronous processing, with a focus on data privacy and security.",
+        "Worked in an Agile team using Test-Driven Development, contributing to code reviews and CI/CD pipelines.",
+        "Collaborated with the product lead and designers to turn business requirements into technical specifications.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Eventcorp Services, Inc.",
+      position: "Reporting & Data Analytics Intern",
+      startDate: "Jun 2022",
+      endDate: "Aug 2022",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Used data mining to improve the organization and customer experience of the US Open, and presented survey insights to the United States Golf Association twice a day.",
+        "Ran pre- and post-event tech audits and prepared equipment for two major events in Boston and North Carolina.",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
+      company: "Media Shield",
+      position: "Web Design Intern",
+      startDate: "Jun 2021",
+      endDate: "Aug 2021",
       summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+        "Built and customized three websites with ClickFunnels for client marketing plans, gathering client requirements and iterating on feedback in biweekly meetings.",
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      name: "Alwan Library",
+      summary:
+        "An Arabic RTL e-commerce mobile app for Android and iOS, built with FlutterFlow, Firebase, Firestore, and Firebase Auth.",
+      linkPreview: "https://github.com/mohammed-albazoon",
+      linkSource: "https://github.com/mohammed-albazoon",
+      image: "/alwan-library.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      name: "Secure Task Management System",
+      summary:
+        "A full-stack task manager with JWT authentication, built with Angular, TypeScript, NestJS, TypeORM, and SQLite.",
+      linkPreview:
+        "https://github.com/mohammed-albazoon/Secure-Task-Management-System",
+      linkSource:
+        "https://github.com/mohammed-albazoon/Secure-Task-Management-System",
+      image: "/task-manager.png",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      name: "Movie Search App",
+      summary:
+        "A movie search app built with React and TypeScript using the OMDb API.",
+      linkPreview: "https://github.com/mohammed-albazoon/movie-search-app",
+      linkSource: "https://github.com/mohammed-albazoon/movie-search-app",
+      image: "/movie-search.png",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+      Hi, I'm Mohammed Al-Bazoon, a software engineer with a strong foundation in computer science, programming, and web development. I earned my B.S. in Computer Science with a minor in Mathematics from Methodist University.
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      I've worked remotely with a Boston-based team building HIPAA and SOC-2 compliant applications for healthcare research, mainly with Python/Django and React/TypeScript. Outside of work, I build mobile apps, machine learning and computer vision projects, and games.
     `,
     image: "/alejandro-big.jpg",
   },
 };
-
-// #5755ff
