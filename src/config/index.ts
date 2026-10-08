@@ -90,7 +90,7 @@ export const SITE_CONTENT: SiteContent = {
         "Web Development (React, TypeScript, OMDb API | HTML, CSS, JavaScript): Interactive movie discovery web application fetching real-time data from OMDb API.",
       linkPreview: "https://mohammed-albazoon.github.io/movie-search-app/",
       linkSource: "https://github.com/mohammed-albazoon/movie-search-app",
-      image: "/movie-search.jpg",
+      image: "/movie-search.png",
     },
     {
       name: "Jet Fighter VR Game",
@@ -106,7 +106,7 @@ export const SITE_CONTENT: SiteContent = {
         "Web Development (HTML, CSS, JavaScript): Interactive e-commerce platform showcasing electronic products with dynamic product browsing features.",
       linkPreview: "https://mohammed-albazoon.github.io/Electronics-Store-Website/",
       linkSource: "https://github.com/mohammed-albazoon/Electronics-Store-Website",
-      image: "/electronics-store.jpg",
+      image: "/electronics-store.png",
     },
     {
       name: "Al-Bazoon Fashion Website",
